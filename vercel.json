@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "name": "your-project-name",
+  "name": "getgpt",
   "functions": {
-    "api/*.js": {
+    "api/fetchCompanyInfo.js": {
       "runtime": "nodejs14.x"
     }
   },
@@ -13,5 +13,6 @@
     }
   ]
 }
+
 
   
