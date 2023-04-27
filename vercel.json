@@ -3,7 +3,7 @@
   "name": "getgpt",
   "functions": {
     "api/fetchCompanyInfo.js": {
-      "memory": 3008
+      "memory": 1024
     }
   },
   "routes": [
