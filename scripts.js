@@ -8,7 +8,7 @@ document.getElementById('company-form').addEventListener('submit', async (e) => 
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer '+'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'
+            'Authorization': 'Bearer '+'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'
         },
         body: JSON.stringify({
             prompt: `查询关于 ${companyName} 的信息`,
