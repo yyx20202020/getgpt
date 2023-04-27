@@ -1,11 +1,17 @@
 {
-    "version": 2,
-    "public": true,
-    "builds": [
-      { "src": "index.html", "use": "@vercel/static" }
-    ],
-    "routes": [
-      { "src": "/(.*).html", "headers": { "cache-control": "public,max-age=0,must-revalidate" } }
-    ]
-  }
+  "version": 2,
+  "name": "your-project-name",
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs14.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
+
   
