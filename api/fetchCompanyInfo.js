@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer YOUR_API_KEY`,
+      'Authorization': `Bearer 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`,
     },
     body: JSON.stringify({
       prompt: `Tell me about the company ${companyName}`,
